@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming Media Assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pre-test": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbrown3/streaming-media-assignment.git"
+  },
+  "author": "Chris Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbrown3/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/cbrown3/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
